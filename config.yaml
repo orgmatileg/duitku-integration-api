@@ -1,0 +1,10 @@
+env: production
+
+duitku:
+  callback_url: http://localhost:8080/duitku/callback
+  redirect_url: http://localhost:8080/duitku/return-url
+  base_url: https://sandbox.duitku.com # Prod: https://passport.duitku.com | Sandbox: https://sandbox.duitku.com
+  base_url_staging: https://sandbox.duitku.com
+  base_url_production: https://passport.duitku.com
+  merchant_code: xxx
+  merchant_key: xxx
